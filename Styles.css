@@ -1,0 +1,16 @@
+body{
+
+    background-image:url(flower.jpeg);
+
+    background-size: cover;
+
+    background-repeat: no-repeat;
+
+    font-size: 26px;
+
+    color:rgb(184, 47, 6);
+
+    text-align: center;
+
+}
+
