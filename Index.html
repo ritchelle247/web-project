@@ -1,0 +1,28 @@
+<!DOCTYPE html>	
+<html>
+<head>
+	
+<meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="styles.css"/>
+</head>
+<body>   
+<script>            
+var number = prompt("Enter number :", " ")
+var chel= 0, lle=1 ;
+
+document.write("Here are the Fibonacci sequence with range of ",number, " :", "<br/>","<br/>", chel, "  ,", lle, "  ");
+ 
+var r,p;
+for( r=2; r<number; r++)
+{
+  p= chel + lle;
+  chel= lle;
+  lle= p;
+  document.write( ", "," " ,p," ");
+} 
+</script>      
+            
+	</body>
+
+</html>
